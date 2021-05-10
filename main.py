@@ -16,15 +16,6 @@ from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 
 def _recommend():
 
-    # data = pd.read_csv('walmart_20191_data.csv')
-    # f_data = pd.DataFrame(data, columns=['Product Name', 'List Price', 'Brand', 'Category', 'Postal Code', 'Available'])
-    # f_data['Total Reviews'] = np.random.randint(0, 100, size=len(f_data))
-    # f_data['Rating'] = np.random.randint(1, 5, size=len(f_data))
-    # f_data.to_csv('walmart_2019_data.csv', index=True)
-    # return 0
-
-    # data = pd.read_csv('walmart_2019_data.csv')
-    # f_data = pd.DataFrame(data, columns=['Product Name', 'List Price', 'Category', 'Total Reviews', 'Rating'])
 
     data = pd.read_csv('HR-Employee-Attrition.csv')
 
